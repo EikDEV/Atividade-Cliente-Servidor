@@ -1,0 +1,7 @@
+package com.crudjspjava.bean;
+
+public class Livro {
+	
+	private int codlivro;
+
+}

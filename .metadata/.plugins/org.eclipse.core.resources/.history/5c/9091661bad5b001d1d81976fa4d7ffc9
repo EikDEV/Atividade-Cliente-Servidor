@@ -1,0 +1,10 @@
+package com.crudjspjava.bean;
+
+public class Livro {
+	
+	private int codlivro;
+	private String titulo;
+	private String autor;
+	private String categoria;
+
+}

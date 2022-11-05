@@ -1,0 +1,10 @@
+<h1>Cadastrar novo livro</h1>
+
+<form>
+	<table>
+		<tr>
+			<td>Código do livro:</td>
+			<td><input type="number" /></td>
+		</tr>
+	</table>
+</form>

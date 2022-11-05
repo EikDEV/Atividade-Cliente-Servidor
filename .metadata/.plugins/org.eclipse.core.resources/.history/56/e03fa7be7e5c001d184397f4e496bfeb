@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Listar por categoria</title>
+</head>
+<body>
+
+	<%@ page import="com.crudjspjava.bean.Livro, com.crudjspjava.dao.LivroDao"%>
+	
+	<%
+		String categoria = request.getParameter("categoria");
+		Livro livro = LivroDao.getAllbyCategoria(Integer.parseInt(codlivro));
+	%>
+
+</body>
+</html>

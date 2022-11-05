@@ -1,0 +1,34 @@
+<h1>Cadastrar novo livro</h1>
+
+<form action="addlivro.jsp" method="post">
+	<table>
+		<tr>
+			<td>Código do livro:</td>
+			<td><input type="number" name="codlivro" /></td>
+		</tr>
+		<tr>
+			<td>Título:</td>
+			<td><input type="text" name="titulo" /></td>
+		</tr>
+		<tr>
+			<td>Autor:</td>
+			<td><input type="text" name="autor" /></td>
+		</tr>
+		<tr>
+			<td>Categoria:</td>
+			<td>
+				<select>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Valor:</td>
+			<td><input type="number" name="valor" /></td>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="Cadastrar livro"/>
+			</td>
+		</tr>
+	</table>
+</form>

@@ -1,0 +1,2 @@
+<%@ page import="com.crudjspjava.dao.LivroDao" %>
+<jsp:useBean id="l"></jsp:useBean>

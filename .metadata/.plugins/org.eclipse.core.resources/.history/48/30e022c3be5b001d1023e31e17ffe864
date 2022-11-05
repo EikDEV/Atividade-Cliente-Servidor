@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Edição de livros </title>
+</head>
+<body>
+
+	<%@ page import="com.crudjspjava.bean.Livro, com.crudjspjava.dao.LivroDao"%>
+	
+	<%
+		String codlivro = request.getParameter("codlivro");
+		Livro livro = LivroDao.getRegisterById(Integer.parseInt(codlivro));
+	%>
+	
+	<h1>Edição de livro</h1>
+	
+	<form action="" method="post">
+		<label>Código do livro</label>
+		<input type="number" name="codlivro" value="livro.getCodLivro">
+	</form>
+
+</body>
+</html>

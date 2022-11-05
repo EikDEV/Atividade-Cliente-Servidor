@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Listar por categoria</title>
+</head>
+<body>
+
+	<%@ page import="com.crudjspjava.bean.Livro, com.crudjspjava.dao.LivroDao"%>
+	
+	<%
+		String categoria = request.getParameter("categoria");
+		Livro livro = LivroDao.getAllbyCategoria(categoria);
+	%>
+	
+	<form>
+		<select name="categoria">
+			<option value="Informática">Informática</option>
+			<option value="Arquitetura">Arquitetura</option>
+			<option value="valor1">Valor 1</option>
+		</select>
+	</form>
+
+</body>
+</html>

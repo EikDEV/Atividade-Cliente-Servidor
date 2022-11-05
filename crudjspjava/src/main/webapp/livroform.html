@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de livro</title>
+</head>
+<body>
+    <h1>Cadastrar novo livro</h1>
+
+<form action="addlivro.jsp" method="post">
+	<table>
+		<tr>
+			<td>Código do livro:</td>
+			<td><input type="number" name="codlivro" /></td>
+		</tr>
+		<tr>
+			<td>Título:</td>
+			<td><input type="text" name="titulo" /></td>
+		</tr>
+		<tr>
+			<td>Autor:</td>
+			<td><input type="text" name="autor" /></td>
+		</tr>
+		<tr>
+			<td>Categoria:</td>
+			<td>
+				<select name="categoria">
+					<option value="Informática">Informática</option>
+					<option value="Arquitetura">Arquitetura</option>
+					<option value="Literatura universal">Literatura universal</option>
+					<option value="Literatura brasileira">Literatura brasileira</option>
+					<option value="Música e arte">Música e arte</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Valor:</td>
+			<td><input type="number" name="valor" /></td>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="Cadastrar livro"/>
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

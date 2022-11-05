@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Início</title>
+</head>
+<body>
+	<h3>Eik Camargo da Silva - RGM: 27939464</h3>
+	<a href="viewlivros.jsp">Listar livros</a>
+	<a href="viewlivros.jsp">Cadastrar/Editar/Excluir livros</a>
+</body>
+</html>
